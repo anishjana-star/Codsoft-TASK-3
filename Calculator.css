@@ -1,5 +1,5 @@
 body{
-    zoom: 250%;
+    zoom: 300%;
     text-align: center;
     background-color: rgb(25, 25, 25);
 }
@@ -86,7 +86,7 @@ input[type="button"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 29px;
+    font-size: 25px;
     color: white;
     border-radius: 100%;
     width: 46px;
@@ -107,21 +107,24 @@ input[type="text"]{
 }
 
 input[value="AC"]{
-    background-color: #505050;
+    background-color: rgb(24, 22, 22);
 }
 
 input[value="AC"]:hover{
     background-color: rgb(24, 22, 22);
     border-radius: 25%;
+    zoom: 97%;
 }
 
 input[value="="]{
     background-color: #FF9500;
+    zoom: 97%;
 }
 
 input[value="="]:hover{
     background-color: rgb(24, 22, 22);
     border-radius: 25%;
+    zoom: 97%;
 }
 
 input[onclick]{
@@ -177,6 +180,7 @@ input[value="-"]:hover{
 
 input[value="("]{
     background-color: #505050;
+    color: black;
 }
 
 input[value="("]:hover{
@@ -185,6 +189,7 @@ input[value="("]:hover{
 
 input[value=")"]{
     background-color: #505050;
+    color: black;
 }
 
 input[value=")"]:hover{
@@ -193,6 +198,7 @@ input[value=")"]:hover{
 
 input[value="⬅"]{
     background-color: #505050;
+    color: black;
 }
 
 input[value="⬅"]:hover{
@@ -206,33 +212,101 @@ input[value="%"]{
 input[value="9"]{
     background-color: #1C1C1C;
 }
+
+input[value="9"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
 input[value="8"]{
     background-color: #1C1C1C;
 }
+
+input[value="8"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
+
 input[value="7"]{
     background-color: #1C1C1C;
 }
+
+input[value="7"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="6"]{
     background-color: #1C1C1C;
 }
+
+input[value="6"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="5"]{
     background-color: #1C1C1C;
 }
+
+input[value="5"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="4"]{
     background-color: #1C1C1C;
 }
+
+input[value="4"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="3"]{
     background-color: #1C1C1C;
 }
+
+input[value="3"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="2"]{
     background-color: #1C1C1C;
 }
+
+input[value="2"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="1"]{
     background-color: #1C1C1C;
 }
 
+input[value="1"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
+}
+
 input[value="."]{
     background-color: #1C1C1C;
+}
+
+input[value="."]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
 }
 
 input[value="0"]{
@@ -242,92 +316,8 @@ input[value="0"]{
     grid-column: span 2; */
 }
 
-
-
-h2{
-    margin: 0;
-    padding: 0;
-    color: #111;
-    font-size: 50px;
-    text-align: left;
-    width: 10px;
-}
-h2 span{
-    display: table-cell;
-    margin: 0;
-    padding: 0;
-    animation: animate 1.5s linear infinite;
-
-}
-
-h2 span:nth-child(1)
-{
-    animation-delay: 0s;
-}
-
-h2 span:nth-child(2)
-{
-    animation-delay: 0.25s;
-}
-
-h2 span:nth-child(3)
-{
-    animation-delay: 0.5s;
-}
-
-h2 span:nth-child(4)
-{
-    animation-delay: 0.75s;
-}
-
-h2 span:nth-child(5)
-{
-    animation-delay: 1s;
-}
-
-h2 span:nth-child(6)
-{
-    animation-delay: 1.25s;
-}
-
-h2 span:nth-child(6)
-{
-    animation-delay: 1s;
-}
-
-h2 span:nth-child(7)
-{
-    animation-delay: 0.75s;
-}
-
-h2 span:nth-child(8)
-{
-    animation-delay: 0.5s;
-}
-
-h2 span:nth-child(9)
-{
-    animation-delay: 0.25s;
-}
-
-h2 span:nth-child(10)
-{
-    animation-delay: 0s;
-}
-
-@keyframes animate{
-    0%,100%{
-        color: #fff;
-        filter: blur(2px);
-        box-shadow: 0 0 10px #ff0000,
-                    0 0 10px #ff0000,
-                    0 0 10px #ff0000,
-                    0 0 10px #ff0000,
-                    0 0 10px #ff0000,                
-    }
-    5%,95%{
-        color: #3e6e68;
-        filter: blur(0px);
-        text-shadow: 0 0 10px #ff0000;
-    }
+input[value="0"]:hover{
+    background-color: #323232;
+    border-radius: 45px;
+    zoom: 95%;
 }
